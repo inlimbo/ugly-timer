@@ -1,0 +1,16 @@
+{
+  "name": "ugly-timer",
+  "version": "0.1.0",
+  "description": "Another timer for finding bottlenecks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape test.js"
+  },
+  "keywords": [],
+  "author": "Aswin (@inlimbo)",
+  "repo": "https://github.com/inlimbo/ugly-timer",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
