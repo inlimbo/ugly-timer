@@ -11,6 +11,7 @@ function Timer () {
   return {
     lapIt: function (message) {
       time = Date.now() - startTime
+      startTime = time
       lap[message] = time
       pitStops.push(lap)
     },
