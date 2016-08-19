@@ -4,7 +4,7 @@
 
 function Timer () {
   var startTime = Date.now()
-  var pitStops = [].push({'Start': 0})
+  var pitStops = [{'Start': 0}]
 
   var time
   var lap = {}
